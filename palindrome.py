@@ -1,12 +1,11 @@
 def show():
-    value=input("enter the value to check palindrome:")
-
+    value=input("enter the value to check palindrome:").lower()
     reverse = value[::-1]
 
     if value == reverse:
-        print("yes, it is palindrome")
+        print(value, "is a palindrome")
 
     else:
-        print("no, it is not palindrome")
+        print(value,"is not a palindrome")
 
 show()

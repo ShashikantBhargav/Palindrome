@@ -1,5 +1,5 @@
 def show():
-    value=input("enter the value to check palindrome:")
+    value=input("enter the number to check palindrome:")
 
     reverse = value[::-1]
 
